@@ -177,4 +177,5 @@ After testing, delete the cluster to avoid unnecessary costs:
 ```bash
 eksctl delete cluster --name demo-cluster --region us-east-1
 ```
+![eks](images/eks_architecture.png)
 
