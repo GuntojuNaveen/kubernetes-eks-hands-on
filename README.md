@@ -169,7 +169,7 @@ kubectl get ingress -n game-2048
 
 Open the ingress address in your browser — you should see the 2048 game running successfully.
 
-![img](images/eks-final-image.png)
+![img](images/eks_final_image.png)
 
 # 🧹 Cleanup
 After testing, delete the cluster to avoid unnecessary costs:
