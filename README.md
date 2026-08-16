@@ -41,11 +41,11 @@ eksctl create cluster --name demo-cluster --region us-east-1 --fargate
 
 After creation, verify the cluster, CloudFormation stack, and VPC in the AWS Console.
 
-![img](images/eks-4.png)
+![img](images/eks-4.jpeg)
 
-![img](images/eks-5.png)
+![img](images/eks-5.jpeg)
 
-![img](images/eks-6.png)
+![img](images/eks-6.jpeg)
 
 Update your local kubeconfig to interact with the cluster:
 ```
@@ -65,7 +65,7 @@ eksctl create fargateprofile \
 ```
 ![img](images/eks-8.png)
 
-![img](images/eks-9.png)
+![img](images/eks-9.jpeg)
 ## Deploy deployment, Service, and Ingress
 
 ```bash
@@ -160,7 +160,7 @@ kubectl get deployment -n kube-system aws-load-balancer-controller
 
 Check the ALB in the AWS Console, then confirm the ingress address:
 
-![img](images/eks-20.png)
+![img](images/eks-20.jpeg)
 
 ```bash
 kubectl get ingress -n game-2048
